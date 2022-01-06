@@ -1,4 +1,4 @@
-package Swing;
+package Swing.Day1;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

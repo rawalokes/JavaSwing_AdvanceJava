@@ -1,4 +1,4 @@
-package Swing;
+package Swing.Day1;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-public class FromThree extends JFrame{
+public class IconForm extends JFrame{
 	
 	public void lblField(ImageIcon i,int x ,int y , int width, int height) {
 		JLabel jLabel = new JLabel(i);
@@ -24,7 +24,7 @@ public class FromThree extends JFrame{
 		add(jpassfield);
 	}
 	
-	public  FromThree() {
+	public  IconForm() {
 		String pad="                                                    ";
 		
 		setTitle(pad +"Registration");	
@@ -48,7 +48,7 @@ public class FromThree extends JFrame{
 		
 	}
 	public static void main(String[] args) {
-		FromThree ft = new FromThree();
+		IconForm ft = new IconForm();
 		
 	}
 
