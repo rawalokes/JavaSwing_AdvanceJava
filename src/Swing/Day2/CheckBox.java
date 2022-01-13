@@ -1,5 +1,4 @@
 package Swing.Day2;
-
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
@@ -31,7 +30,7 @@ public class CheckBox extends JFrame{
 		jlable("Username", 15, 15,70, 20);
 		txtField(90,15, 100,20);
 		//Password
-		jlable("Username", 15,40,70, 20);
+		jlable("Password", 15,40,70, 20);
 		jPasswordField(90,40, 100,20);
 		
 		JCheckBox box =new JCheckBox("Save password");
